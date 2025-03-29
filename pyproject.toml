@@ -7,7 +7,7 @@ name = "inventree-ipn-generator"
 version = "0.1.2"
 description = "InvenTree plugin to automatically generate and assign Internal Part Numbers to parts"
 authors = [
-    {name = "Nichlas Walsøe", email = "lavissawow@gmail.com"}
+    {name = "Robert Howard", email = "howieiwoh@outlook.com"}
 ]
 readme = {file = "README.md", content-type = "text/markdown"}
 license = {file = "LICENSE"}
@@ -19,7 +19,7 @@ classifiers = [
 requires-python = ">=3.9"
 
 [project.urls]
-"Homepage" = "https://github.com/LavissaWoW/inventree-ipn-generator"
+"Homepage" = "https://github.com/eiwoh62/inventree-ipn-generator"
 
 [project.entry-points."inventree_plugins"]
 IPNGenerator = 'ipn_generator.generator:AutoGenIPNPlugin'
